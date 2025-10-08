@@ -1,0 +1,297 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 15px 40px;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 45px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.nav-links a:hover {
+  color: #0078d7;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 25px;
+  padding: 5px 12px;
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 6px;
+  width: 160px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.containerr {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://images.myguide-cdn.com/content/2/large/camping-essentials-items-to-pack-for-your-camping-trip-698847.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.h-text {
+  color: white;
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-left: 80px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.con > div:first-child {
+  flex: 1 1 400px;
+}
+
+.con h1 {
+  font-size: 2.2rem;
+  color: #222;
+}
+
+.con p {
+  margin: 10px 0 30px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.p {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.p div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.p b {
+  color: #333;
+  font-weight: 500;
+}
+
+.contact-form {
+  flex: 1 1 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 95%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #075f28;
+}
+
+.contact-form button {
+  width: 100%;
+  background: #075f28;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #097d33;
+}
+
+footer {
+  background: rgb(8, 63, 8);
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer img {
+  height: 40px;
+}
+
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-icons a {
+  margin: 0 8px;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+.div-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 15px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.div-2 img {
+  height: 35px;
+  margin: 5px;
+}
+
+hr {
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  margin: 20px 0;
+}
+
+@media (max-width: 992px) {
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+  .containerr {
+    height: 400px;
+  }
+
+  .h-text {
+    font-size: 2rem;
+    margin-left: 40px;
+  }
+
+  .con {
+    padding: 50px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .search-bar input {
+    width: 120px;
+  }
+
+  .containerr {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .h-text {
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .div-2 {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 10px 20px;
+  }
+
+  .h-text {
+    font-size: 1.6rem;
+  }
+
+  .con {
+    gap: 40px;
+    padding: 40px 15px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  footer img {
+    height: 30px;
+  }
+}
