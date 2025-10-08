@@ -5,8 +5,6 @@ Bu **Picknik-store** veb-ilovasini dizayni. Loyihada HTML, CSS texnologiyalarida
 ---
 
 
----
-
 ## 🛠️ Texnologiyalar
 - HTML5  
 - CSS3  
