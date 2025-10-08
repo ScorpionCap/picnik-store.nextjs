@@ -1,4 +1,4 @@
-# 📚  Store
+# 📚 Picknik Store
 
 Bu **Picknik-store** veb-ilovasini dizayni. Loyihada HTML, CSS texnologiyalaridan foydalanilgan.
 
